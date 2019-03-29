@@ -1,6 +1,6 @@
 <?php
-// $conn = mysqli_connect("sql113.epizy.com", "epiz_21328375", "YcSKbBtcgOIZ", "epiz_21328375_candys");
-$conn = mysqli_connect("localhost", "root", "", "db_berry");
+// connect to database
+$conn = mysqli_connect("localhost", "username", "password", "database");
 
 // function query
 function query ($query) {
